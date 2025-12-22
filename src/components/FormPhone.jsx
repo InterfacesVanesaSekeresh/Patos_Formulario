@@ -168,7 +168,7 @@ function FormPhone({
               type="submit"
               className="w-full py-2 px-4 rounded-md text-white bg-blue-600"
             >
-              Enviar
+              Añadir pato
             </button>
           </section>
         </section>

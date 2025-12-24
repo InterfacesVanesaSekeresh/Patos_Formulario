@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @import "./theme.css";
 
-
-
 /* h1 */
 .contenedor__titulo {
   font-family: var(--heading-h1-font-family);
@@ -34,7 +32,6 @@
   letter-spacing: var(--text-large-letter-spacing);
   line-height: var(--text-large-line-height);
   color: var(--color-text);
-  
 }
 
 /* Texto para descripcón y tipo */
@@ -55,7 +52,6 @@
   color: var(--color-success);
 }
 
-
 /* Tarjeta con imagen */
 .contenedor__tarjeta {
   background-color: var(--color-white);
@@ -68,19 +64,30 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 8px
+  gap: 8px;
+}
+
+/* Formulario centrado */
+.contenedor__form {
+  background-color: #ffffff;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05); 
+  width: 100%; 
+  max-width: 36rem; 
+  margin-left: auto; 
+  margin-right: auto;
 }
 
 /* Estilo para Header y Footer */
 .contenedor__barra-principal {
-  background-color: var(--color-secondary); /* amarillo */
-  color: var(--color-black); /* o el que prefieras */
+  background-color: var(--color-secondary); 
+  color: var(--color-black); 
   padding: 16px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
   width: 100%;
-  
 }
-
 
 /* Responsividad tarjeta */
 @media (min-width: 640px) {

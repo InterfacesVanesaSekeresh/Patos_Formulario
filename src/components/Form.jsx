@@ -112,7 +112,7 @@ function Form() {
   };
 
   return (
-    <section className="bg-white p-6 rounded-lg shadow-xl max-w-xl mx-auto w-full">
+    <section className="contenedor__form">
       <h3 className="contenedor__titulo mb-4 text-center">Añadir pato</h3>
       <form onSubmit={handleDuckSubmit} className="space-y-4" noValidate>
        

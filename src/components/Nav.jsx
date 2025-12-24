@@ -36,7 +36,7 @@ function Nav() {
       <ul className="hidden md:flex gap-4">
         <li><NavLink to="/">Inicio</NavLink></li>
         <li><NavLink to="/patos">Catálogo</NavLink></li>
-        <li><NavLink to="/administracion">Admin</NavLink></li>
+        <li><NavLink to="/administration">Admin</NavLink></li>
       </ul>
     </nav>
   );

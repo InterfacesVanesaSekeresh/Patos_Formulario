@@ -51,3 +51,13 @@
 ## El logo lleva al inicio de la página
 
 ![Logo con código](image-18.png)
+
+## Formulario partido en versión móvil
+
+![formulario móvil](image-19.png)
+
+![formulario móvil2](image-21.png)
+
+## Marcar los errores al insertar datos mal en el formulario + placeholder de ayuda
+
+![Error formulario](image-20.png)

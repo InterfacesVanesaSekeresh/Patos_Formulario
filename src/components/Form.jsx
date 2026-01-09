@@ -163,7 +163,8 @@ function Form() {
       [id]: value,
     }));
 
-    // Limpiar solo el error del campo editado
+    //Limpiar solo el error del campo editado (basicamente para que no salga en rojo 
+    // si se ha modificado ese campo)
     if (duckErrors[id]) {
       setDuckErrors((prev) => ({
         ...prev,
